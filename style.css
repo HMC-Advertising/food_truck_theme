@@ -1,0 +1,1213 @@
+/*
+Theme Name: liesel - Child 
+Author: Dahz
+Author URI: http://dahz.daffyhazan.com/liesel
+Description: liesel Theme Designed by <a href="http://www.daffyhazan.com">Dahz</a>.
+Version: 1.0.0
+Template: liesel
+*/
+@import url("../liesel/includes/css/layout.css");
+@import url("../liesel/includes/css/public/grand.css");
+/******************************
+= Clearfix
+******************************/
+/* line 16, custom_assets/style/sass/style.scss */
+h1 {
+  font-weight: 800 !important;
+  font-size: 45px;
+}
+@media only screen and (max-width: 400px) {
+  /* line 16, custom_assets/style/sass/style.scss */
+  h1 {
+    font-size: 30px !important;
+  }
+}
+
+/* line 25, custom_assets/style/sass/style.scss */
+#gmMap .wpb_content_element {
+  margin-bottom: 0;
+}
+
+/* line 31, custom_assets/style/sass/style.scss */
+#content ul {
+  list-style: none;
+  margin-left: 35px;
+}
+/* line 35, custom_assets/style/sass/style.scss */
+#content ul li:before {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-size: 8px;
+  color: #ff29cf;
+  position: absolute;
+  text-indent: -16px;
+}
+
+/* line 53, custom_assets/style/sass/style.scss */
+.home .footer-primary-widgets {
+  margin-top: -12px;
+}
+/* line 56, custom_assets/style/sass/style.scss */
+.home #wrapper, .home #sb-site {
+  background: #000000 !important;
+}
+
+/* line 63, custom_assets/style/sass/style.scss */
+#snacks .wpb_text_column, #main .wpb_text_column, #sweets .wpb_text_column, #drinks .wpb_text_column {
+  margin-bottom: -10px;
+}
+/* line 66, custom_assets/style/sass/style.scss */
+#snacks .wpb_text_column .wpb_wrapper h1, #main .wpb_text_column .wpb_wrapper h1, #sweets .wpb_text_column .wpb_wrapper h1, #drinks .wpb_text_column .wpb_wrapper h1 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  font-family: "Roboto" !important;
+  font-weight: 900;
+}
+/* line 76, custom_assets/style/sass/style.scss */
+#snacks .vc_custom_heading, #main .vc_custom_heading, #sweets .vc_custom_heading, #drinks .vc_custom_heading {
+  margin-bottom: 0;
+}
+/* line 78, custom_assets/style/sass/style.scss */
+#snacks .vc_custom_heading h2, #main .vc_custom_heading h2, #sweets .vc_custom_heading h2, #drinks .vc_custom_heading h2 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  font-family: "Roboto" !important;
+  font-style: italic !important;
+}
+
+/* line 89, custom_assets/style/sass/style.scss */
+#header_image {
+  z-index: 999;
+}
+/* line 91, custom_assets/style/sass/style.scss */
+#header_image img {
+  margin-bottom: -35px !important;
+}
+
+/* line 95, custom_assets/style/sass/style.scss */
+#snacks {
+  z-index: 1;
+}
+
+/* line 99, custom_assets/style/sass/style.scss */
+form p {
+  text-transform: uppercase;
+}
+
+/* line 106, custom_assets/style/sass/style.scss */
+input[type="submit"] {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 800 !important;
+}
+/* line 112, custom_assets/style/sass/style.scss */
+input[type="text"], input[type="email"] {
+  border: none;
+  border-bottom: 2px solid #000000;
+}
+/* line 115, custom_assets/style/sass/style.scss */
+input[type="text"]:focus, input[type="email"]:focus {
+  border: none !important;
+  border-bottom: 2px solid #000000 !important;
+}
+
+/* line 122, custom_assets/style/sass/style.scss */
+textarea {
+  border: none;
+  border-bottom: 2px solid #000000;
+}
+/* line 125, custom_assets/style/sass/style.scss */
+textarea:focus {
+  border: none !important;
+  border-bottom: 2px solid #000000 !important;
+}
+
+/* line 131, custom_assets/style/sass/style.scss */
+a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+/* line 133, custom_assets/style/sass/style.scss */
+a:focus {
+  color: #000000;
+}
+
+/* line 138, custom_assets/style/sass/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 143, custom_assets/style/sass/style.scss */
+.sb-slidebar .s {
+  background: #ffffff !important;
+}
+
+/* line 148, custom_assets/style/sass/style.scss */
+.white-skin-mobile .mobile-search-cart {
+  border-bottom: 1px solid #000;
+}
+/* line 150, custom_assets/style/sass/style.scss */
+.white-skin-mobile .mobile-search-cart .searchform {
+  border-bottom: 1px solid #000 !important;
+}
+/* line 152, custom_assets/style/sass/style.scss */
+.white-skin-mobile .mobile-search-cart .searchform input.s {
+  background: #333333 !important;
+}
+
+/* line 166, custom_assets/style/sass/style.scss */
+div.df-navibar nav ul li i {
+  color: #ffffff;
+}
+
+/* line 174, custom_assets/style/sass/style.scss */
+.df-topbar {
+  display: none;
+}
+
+/* line 178, custom_assets/style/sass/style.scss */
+.site-header {
+  position: relative;
+  z-index: 100;
+}
+
+/* line 185, custom_assets/style/sass/style.scss */
+.middlev {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  clear: both;
+}
+
+/* line 192, custom_assets/style/sass/style.scss */
+.footwidget {
+  float: left;
+  width: 150px;
+}
+
+/* line 198, custom_assets/style/sass/style.scss */
+footer .df-navi {
+  margin-top: 10px;
+}
+/* line 201, custom_assets/style/sass/style.scss */
+footer ul {
+  list-style: none;
+}
+/* line 204, custom_assets/style/sass/style.scss */
+footer ul li h2.widgettitle {
+  text-align: center;
+}
+
+/* line 211, custom_assets/style/sass/style.scss */
+.aside {
+  clear: both;
+  padding: 20px;
+  font-size: 23px;
+  color: #a6c31d;
+  font-family: "Roboto Slab",serif;
+  width: 33%;
+}
+/* line 218, custom_assets/style/sass/style.scss */
+.aside.left {
+  float: left;
+  text-align: left;
+}
+/* line 222, custom_assets/style/sass/style.scss */
+.aside.right {
+  float: right;
+  text-align: right;
+}
+
+/* line 229, custom_assets/style/sass/style.scss */
+.wpb_tab p {
+  color: #000000;
+  font-weight: 800;
+  font-size: 17px;
+}
+/* line 234, custom_assets/style/sass/style.scss */
+.wpb_tab ul {
+  list-style: disc !important;
+  margin-left: 20px;
+}
+
+/* line 242, custom_assets/style/sass/style.scss */
+.top-search i {
+  color: #000000;
+}
+
+/* line 243, custom_assets/style/sass/style.scss */
+.entry-meta {
+  display: none;
+}
+
+/* line 248, custom_assets/style/sass/style.scss */
+.textwidget img {
+  margin-top: 12px;
+  margin-bottom: -15px;
+}
+/* line 254, custom_assets/style/sass/style.scss */
+.textwidget .widget {
+  margin-bottom: 10px;
+}
+/* line 257, custom_assets/style/sass/style.scss */
+.textwidget .footwidget {
+  float: left;
+  margin-top: 7px;
+}
+/* line 261, custom_assets/style/sass/style.scss */
+.textwidget .footwidget ul.top-navigation > li, .textwidget .footwidget ul.footer-navigation > li {
+  float: left;
+}
+/* line 265, custom_assets/style/sass/style.scss */
+.textwidget .fr {
+  font-size: 11px;
+  width: 290px;
+}
+/* line 270, custom_assets/style/sass/style.scss */
+.textwidget .operatinghour-widget ul {
+  margin-top: -10px;
+}
+/* line 272, custom_assets/style/sass/style.scss */
+.textwidget .operatinghour-widget ul li {
+  margin-bottom: 10px;
+  border-bottom: none;
+}
+/* line 276, custom_assets/style/sass/style.scss */
+.textwidget .operatinghour-widget ul li:last-child {
+  border-bottom: none;
+}
+/* line 279, custom_assets/style/sass/style.scss */
+.textwidget .operatinghour-widget ul li p {
+  color: #e7e61f !important;
+}
+/* line 282, custom_assets/style/sass/style.scss */
+.textwidget .operatinghour-widget ul li a {
+  color: #ff29cf;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase !important;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+/* line 294, custom_assets/style/sass/style.scss */
+#text-4 {
+  margin-top: -30px !important;
+}
+
+/* line 299, custom_assets/style/sass/style.scss */
+.yellow {
+  color: #e7e61f !important;
+}
+/* line 301, custom_assets/style/sass/style.scss */
+.yellow h1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: #e7e61f !important;
+  margin-bottom: 5px !important;
+}
+/* line 309, custom_assets/style/sass/style.scss */
+.yellow h3 {
+  color: #e7e61f;
+  margin-top: 0 !important;
+}
+
+/* line 315, custom_assets/style/sass/style.scss */
+.fp_yellow_button {
+  border: thin solid #000000;
+  background: #e7e61f;
+  color: #ff29cf;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* line 324, custom_assets/style/sass/style.scss */
+.tribe-events-nav-previous a, .tribe-events-nav-next a {
+  border: none;
+}
+
+/* line 329, custom_assets/style/sass/style.scss */
+.footer-primary-widgets, .site-footer {
+  padding-top: 30px;
+  background: #000000 !important;
+  color: #e7e61f;
+}
+/* line 331, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .fp_yellow_button, .site-footer .fp_yellow_button {
+  padding: 20px !important;
+  background: #ff29cf !important;
+  color: #e7e61f !important;
+  font-size: 40px !important;
+  display: block !important;
+}
+/* line 337, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .fp_yellow_button:hover, .site-footer .fp_yellow_button:hover {
+  background: #e7e61f;
+  color: #ff29cf;
+}
+/* line 342, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .donatenow, .site-footer .donatenow {
+  padding-top: 10px;
+  text-align: center;
+}
+/* line 345, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .donatenow a, .site-footer .donatenow a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+  text-align: center;
+  width: 97%;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  background: #ff29cf;
+  color: #e7e61f;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  display: block;
+}
+/* line 360, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .donatenow a:hover, .site-footer .donatenow a:hover {
+  background: #e7e61f;
+  color: #ff29cf !important;
+}
+/* line 368, custom_assets/style/sass/style.scss */
+.footer-primary-widgets h3, .site-footer h3 {
+  color: #e7e61f;
+  font-size: 24px !important;
+  text-transform: capitalize;
+}
+/* line 373, custom_assets/style/sass/style.scss */
+.footer-primary-widgets a, .site-footer a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #ff29cf;
+}
+/* line 379, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .operatinghour-widget ul li, .site-footer .operatinghour-widget ul li {
+  border-bottom: 1px solid #333333;
+}
+/* line 385, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .df-social a, .site-footer .df-social a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+/* line 387, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .df-social a:before, .site-footer .df-social a:before {
+  background: #e7e61f;
+  border: none;
+}
+/* line 393, custom_assets/style/sass/style.scss */
+.footer-primary-widgets .df-navi li a, .site-footer .df-navi li a {
+  color: #ff29cf !important;
+  font-weight: 800 !important;
+}
+
+/* line 399, custom_assets/style/sass/style.scss */
+.site-footer .site-info {
+  border-top: 1px solid #333333 !important;
+}
+
+/* line 405, custom_assets/style/sass/style.scss */
+.events-single .tribe-events-meta-group-details h3, .events-single .tribe-events-meta-group-venue h3 {
+  font-size: 40px;
+}
+/* line 408, custom_assets/style/sass/style.scss */
+.events-single .tribe-events-meta-group-details dt, .events-single .tribe-events-meta-group-venue dt {
+  font-size: 30px !important;
+}
+/* line 411, custom_assets/style/sass/style.scss */
+.events-single .tribe-events-meta-group-details dd, .events-single .tribe-events-meta-group-venue dd {
+  font-size: 25px !important;
+}
+
+/* line 416, custom_assets/style/sass/style.scss */
+.tribe-events-meta-group-organizer {
+  display: none !important;
+}
+
+/* line 420, custom_assets/style/sass/style.scss */
+.date_start_big {
+  background: #ff29cf !important;
+}
+
+/* line 423, custom_assets/style/sass/style.scss */
+.member.style1 .member-desc-warp {
+  border: none !important;
+}
+
+/* line 427, custom_assets/style/sass/style.scss */
+.current-menu-item {
+  border-bottom: 3px solid #000000 !important;
+}
+
+/* line 433, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element h2 {
+  color: #b7b7b7;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+/* line 442, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element .wpb_accordion_wrapper .ui-state-active .ui-icon {
+  background-image: none !important;
+}
+/* line 445, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element .wpb_accordion_wrapper .ui-state-active .ui-icon:after {
+  color: #e7e61f !important;
+  background-image: none !important;
+}
+/* line 450, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element .wpb_accordion_wrapper .ui-state-default .ui-icon {
+  background-image: none !important;
+}
+/* line 453, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element .wpb_accordion_wrapper .ui-state-default .ui-icon:after {
+  color: #e7e61f !important;
+  background-image: none !important;
+}
+/* line 458, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header {
+  background-color: #c8eeed !important;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+/* line 463, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header a {
+  font-size: 20px !important;
+  margin-left: -25px !important;
+  display: inline-block !important;
+  padding: 0;
+  padding-top: 4px;
+}
+/* line 471, custom_assets/style/sass/style.scss */
+.cts_acc.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header .ui-icon {
+  background: #ff29cf;
+  color: #e7e61f;
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px !important;
+  padding-top: 7px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  display: inline-block !important;
+  background-image: none !important;
+}
+
+/* line 488, custom_assets/style/sass/style.scss */
+.grey {
+  color: #8c928c !important;
+}
+
+/* line 497, custom_assets/style/sass/style.scss */
+#twitterStream a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+/* line 500, custom_assets/style/sass/style.scss */
+#twitterStream a:hover h1 {
+  color: #e7e61f;
+}
+/* line 505, custom_assets/style/sass/style.scss */
+#twitterStream h1 {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #ff29cf;
+  font-size: 24px;
+  text-align: right;
+  font-weight: 400 !important;
+  margin-right: 18px;
+}
+/* line 513, custom_assets/style/sass/style.scss */
+#twitterStream .tweet {
+  padding-top: 5px;
+  padding-left: 0;
+  background: #000000 !important;
+}
+/* line 518, custom_assets/style/sass/style.scss */
+#twitterStream .tweet .col.one {
+  width: 20% !important;
+}
+/* line 521, custom_assets/style/sass/style.scss */
+#twitterStream .tweet .col.two {
+  width: 80% !important;
+}
+/* line 525, custom_assets/style/sass/style.scss */
+#twitterStream .tweet .url .line {
+  width: 55%;
+  background: #333333;
+  display: none;
+}
+/* line 530, custom_assets/style/sass/style.scss */
+#twitterStream .tweet .date {
+  line-height: 32px;
+}
+
+/* line 537, custom_assets/style/sass/style.scss */
+#myMap {
+  margin-top: -20px !important;
+}
+
+@media only screen and (max-width: 400px) {
+  /* line 546, custom_assets/style/sass/style.scss */
+  .mobile-true .df-fancy-header-parallax {
+    background-size: 510px !important;
+    height: 330px !important;
+    min-height: 100px !important;
+    background-position: center center !important;
+  }
+
+  /* line 554, custom_assets/style/sass/style.scss */
+  .page-id-103 .df-navibar.df-menu-transparent {
+    background: #000000 !important;
+  }
+  /* line 557, custom_assets/style/sass/style.scss */
+  .page-id-103 .df-fancy-header-parallax {
+    background-position: center -150% !important;
+  }
+
+  /* line 561, custom_assets/style/sass/style.scss */
+  .vc_custom_1452980315921 {
+    padding-top: 0;
+  }
+
+  /* line 564, custom_assets/style/sass/style.scss */
+  .past-event.no-events {
+    padding-top: 50px !important;
+  }
+  /* line 566, custom_assets/style/sass/style.scss */
+  .past-event.no-events div {
+    width: 90% !important;
+  }
+
+  /* line 572, custom_assets/style/sass/style.scss */
+  #sponsorarea .wpb_tabs_nav li {
+    float: none;
+    display: block;
+  }
+  /* line 575, custom_assets/style/sass/style.scss */
+  #sponsorarea .wpb_tabs_nav li a {
+    display: block;
+    font-size: 14px !important;
+    padding-top: 20px;
+  }
+
+  /* line 583, custom_assets/style/sass/style.scss */
+  .goodPhotos {
+    width: 50% !important;
+  }
+
+  /* line 586, custom_assets/style/sass/style.scss */
+  .vc_empty_space {
+    height: 1px !important;
+  }
+
+  /* line 589, custom_assets/style/sass/style.scss */
+  .btn_warpper {
+    padding-bottom: 35px;
+  }
+
+  /* line 592, custom_assets/style/sass/style.scss */
+  .mobileHidden {
+    display: none !important;
+  }
+
+  /* line 595, custom_assets/style/sass/style.scss */
+  #menu img {
+    max-width: 200%;
+    height: auto;
+    margin-left: -125px !important;
+    margin-top: -46px !important;
+  }
+
+  /* line 601, custom_assets/style/sass/style.scss */
+  h3 {
+    font-size: 16px;
+  }
+
+  /* line 604, custom_assets/style/sass/style.scss */
+  #twitterStream .col.one {
+    margin-top: 51px !important;
+  }
+
+  /* line 607, custom_assets/style/sass/style.scss */
+  .footer-primary-widgets h3, .site-footer h3, #twitterStream h1 {
+    text-align: center !important;
+  }
+
+  /* line 610, custom_assets/style/sass/style.scss */
+  #background {
+    height: 200px !important;
+    background-attachment: scroll !important;
+    background-size: 400px !important;
+    min-height: 1px !important;
+  }
+
+  /* line 618, custom_assets/style/sass/style.scss */
+  #twitterStream .tweet .date {
+    font-size: 21px !important;
+  }
+
+  /* line 624, custom_assets/style/sass/style.scss */
+  .donatenow a {
+    font-size: 27px !important;
+  }
+
+  /* line 629, custom_assets/style/sass/style.scss */
+  .social .contact_text {
+    font-size: 22px !important;
+    margin-top: 8px !important;
+  }
+
+  /* line 635, custom_assets/style/sass/style.scss */
+  #goodfeed .goodfeedimg {
+    text-align: center;
+  }
+  /* line 637, custom_assets/style/sass/style.scss */
+  #goodfeed .goodfeedimg img {
+    width: 50%;
+  }
+  /* line 643, custom_assets/style/sass/style.scss */
+  #goodfeed .yellow p {
+    font-size: 12px !important;
+  }
+
+  /* line 648, custom_assets/style/sass/style.scss */
+  .df-menu {
+    color: #ffffff;
+  }
+
+  /* line 653, custom_assets/style/sass/style.scss */
+  .textwidget .footwidget {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* line 659, custom_assets/style/sass/style.scss */
+  #mobile-six {
+    background-size: 400px !important;
+  }
+  /* line 661, custom_assets/style/sass/style.scss */
+  #mobile-six .vc_empty_space {
+    height: 100px !important;
+  }
+
+  /* line 667, custom_assets/style/sass/style.scss */
+  #mission, #donate {
+    background-repeat: repeat !important;
+  }
+
+  /* line 670, custom_assets/style/sass/style.scss */
+  #menu-footer {
+    margin-left: 67px;
+  }
+
+  /* line 674, custom_assets/style/sass/style.scss */
+  .cta_content p {
+    padding: 20px;
+  }
+
+  /* line 678, custom_assets/style/sass/style.scss */
+  #post-78 {
+    margin-top: -60px;
+  }
+
+  /* line 681, custom_assets/style/sass/style.scss */
+  #truck-stop {
+    margin-top: -64px;
+    margin-bottom: -70px;
+  }
+
+  /* line 685, custom_assets/style/sass/style.scss */
+  .df_span-sm-2 {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+  /* line 690, custom_assets/style/sass/style.scss */
+  #mobile-six {
+    background-size: 500px !important;
+  }
+  /* line 692, custom_assets/style/sass/style.scss */
+  #mobile-six .vc_empty_space {
+    height: 300px !important;
+  }
+
+  /* line 697, custom_assets/style/sass/style.scss */
+  #df-fancy-header {
+    background-size: 650px !important;
+    height: 400px !important;
+    min-height: 100px !important;
+    background-position: center center !important;
+  }
+
+  /* line 703, custom_assets/style/sass/style.scss */
+  .mobileHidden {
+    display: none;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+  /* line 709, custom_assets/style/sass/style.scss */
+  .mobileHidden {
+    display: none;
+  }
+
+  /* line 712, custom_assets/style/sass/style.scss */
+  #mobile-six {
+    background-size: 900px !important;
+  }
+  /* line 714, custom_assets/style/sass/style.scss */
+  #mobile-six .vc_empty_space {
+    height: 500px !important;
+  }
+
+  /* line 718, custom_assets/style/sass/style.scss */
+  #df-fancy-header {
+    background-size: 910px !important;
+    height: 500px !important;
+    min-height: 100px !important;
+    background-position: center center !important;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  /* line 727, custom_assets/style/sass/style.scss */
+  #twitterStream .col.one {
+    margin-top: 51px !important;
+  }
+
+  /* line 730, custom_assets/style/sass/style.scss */
+  .footer-primary-widgets h3, .site-footer h3, #twitterStream h1 {
+    text-align: center !important;
+  }
+
+  /* line 734, custom_assets/style/sass/style.scss */
+  .textwidget .footwidget {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* line 742, custom_assets/style/sass/style.scss */
+  #mission, #donate {
+    background-repeat: repeat !important;
+  }
+
+  /* line 745, custom_assets/style/sass/style.scss */
+  #menu-footer {
+    margin-left: 67px;
+  }
+
+  /* line 749, custom_assets/style/sass/style.scss */
+  .cta_content p {
+    padding: 20px;
+  }
+
+  /* line 753, custom_assets/style/sass/style.scss */
+  #post-78 {
+    margin-top: -60px;
+  }
+
+  /* line 756, custom_assets/style/sass/style.scss */
+  #truck-stop {
+    margin-top: -64px;
+    margin-bottom: -70px;
+  }
+
+  /* line 760, custom_assets/style/sass/style.scss */
+  .df_span-sm-2 {
+    display: none !important;
+  }
+}
+/* line 764, custom_assets/style/sass/style.scss */
+.df-top-navigation {
+  display: none !important;
+}
+
+/* line 769, custom_assets/style/sass/style.scss */
+#main-nav {
+  margin-top: 35px;
+}
+
+/* line 773, custom_assets/style/sass/style.scss */
+.social {
+  clear: both;
+}
+/* line 775, custom_assets/style/sass/style.scss */
+.social img {
+  margin-top: -12px;
+  margin-bottom: -20px;
+}
+/* line 781, custom_assets/style/sass/style.scss */
+.social .fa-inverse {
+  color: #e7e61f;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+/* line 786, custom_assets/style/sass/style.scss */
+.social .fa-circle {
+  color: #ff29cf;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+/* line 791, custom_assets/style/sass/style.scss */
+.social .fa-lg {
+  font-size: 2em;
+}
+/* line 794, custom_assets/style/sass/style.scss */
+.social a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+/* line 797, custom_assets/style/sass/style.scss */
+.social a:hover .fa-circle {
+  color: #e7e61f;
+}
+/* line 801, custom_assets/style/sass/style.scss */
+.social a:hover .fa-inverse {
+  color: #ff29cf;
+}
+/* line 808, custom_assets/style/sass/style.scss */
+.social .right {
+  float: right;
+  margin-top: -4px;
+  margin-right: 10px;
+}
+/* line 816, custom_assets/style/sass/style.scss */
+.social .contact_text {
+  font-size: 24px;
+  font-family: "Raleway";
+  color: #e7e61f;
+  position: absolute;
+  margin-top: 7px;
+}
+
+/* line 834, custom_assets/style/sass/style.scss */
+.widget h3 {
+  color: #e7e61f !important;
+  margin-bottom: -10px !important;
+}
+
+/* line 840, custom_assets/style/sass/style.scss */
+.shed {
+  margin-bottom: 10px;
+}
+/* line 841, custom_assets/style/sass/style.scss */
+.shed h2 {
+  color: #ff29cf;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+
+/* line 855, custom_assets/style/sass/style.scss */
+.communityTruck h2 {
+  color: #b7b7b7;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+/* line 864, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .ui-state-active .ui-icon {
+  background-image: none !important;
+}
+/* line 867, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .ui-state-active .ui-icon:after {
+  color: #e7e61f !important;
+  background-image: none !important;
+}
+/* line 872, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .ui-state-default .ui-icon {
+  background-image: none !important;
+}
+/* line 875, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .ui-state-default .ui-icon:after {
+  color: #e7e61f !important;
+  background-image: none !important;
+}
+/* line 880, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .wpb_accordion_header {
+  background-color: #c8eeed !important;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+/* line 885, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .wpb_accordion_header a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+  font-size: 20px !important;
+  margin-left: -25px !important;
+  display: inline-block !important;
+  padding: 0;
+  padding-top: 4px;
+}
+/* line 894, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .wpb_accordion_header .ui-icon {
+  background: #ff29cf;
+  color: #e7e61f;
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px !important;
+  padding-top: 7px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  display: inline-block !important;
+  background-image: none !important;
+}
+/* line 908, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .wpb_accordion_content {
+  padding-bottom: 25px !important;
+}
+/* line 910, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .wpb_accordion_content ul {
+  list-style: none;
+}
+/* line 913, custom_assets/style/sass/style.scss */
+.communityTruck .wpb_accordion_wrapper .wpb_accordion_content ul li:before {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-size: 8px;
+  color: #ff29cf;
+  position: absolute;
+  text-indent: -16px;
+}
+
+/* line 932, custom_assets/style/sass/style.scss */
+.df-header .fancy-title.entry-title {
+  display: none;
+}
+
+/* line 941, custom_assets/style/sass/style.scss */
+.sponsor.tab_style_1 .wpb_tabs_nav li.ui-tabs-active a {
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #ff29cf !important;
+  border-bottom: 2px solid #ff29cf !important;
+  font-weight: 600 !important;
+}
+/* line 952, custom_assets/style/sass/style.scss */
+.sponsor.tab_style_1 .wpb_tabs_nav li a {
+  font-size: 25px !important;
+  text-transform: uppercase !important;
+}
+
+/* line 964, custom_assets/style/sass/style.scss */
+.current_page_item {
+  border-bottom: none !important;
+}
+/* line 966, custom_assets/style/sass/style.scss */
+.current_page_item a {
+  color: #ff29cf !important;
+}
+
+/* line 973, custom_assets/style/sass/style.scss */
+.instacenter li:before {
+  content: "" !important;
+}
+
+/* line 979, custom_assets/style/sass/style.scss */
+.footer-primary-widgets {
+  padding-top: 54px !important;
+}
+
+/* line 983, custom_assets/style/sass/style.scss */
+.site-footer {
+  padding-top: 0 !important;
+}
+
+/* line 988, custom_assets/style/sass/style.scss */
+#content {
+  padding-bottom: 0;
+}
+
+/* line 992, custom_assets/style/sass/style.scss */
+#background {
+  height: 600px;
+}
+
+/* line 997, custom_assets/style/sass/style.scss */
+.main-navigation a, .main-navigation ul ul a, .df-navi li a {
+  font-size: 12px;
+}
+
+/* line 1000, custom_assets/style/sass/style.scss */
+#location {
+  background: #000000;
+}
+/* line 1002, custom_assets/style/sass/style.scss */
+#location h1, #location h3 {
+  color: #e7e61f !important;
+}
+
+/* line 1009, custom_assets/style/sass/style.scss */
+#smGall .df_span-sm-5 .vc_column-inner, #smGall .df_span-sm-3 .vc_column-inner, #smGall .df_span-sm-1 .vc_column-inner, #smGall .df_span-sm-2 .vc_column-inner, #smGall .df_span-sm-4 .vc_column-inner, #smGall .df_span-sm-6 .vc_column-inner, #smPhotos .df_span-sm-5 .vc_column-inner, #smPhotos .df_span-sm-3 .vc_column-inner, #smPhotos .df_span-sm-1 .vc_column-inner, #smPhotos .df_span-sm-2 .vc_column-inner, #smPhotos .df_span-sm-4 .vc_column-inner, #smPhotos .df_span-sm-6 .vc_column-inner {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 1016, custom_assets/style/sass/style.scss */
+.carrot {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid;
+  position: absolute;
+  z-index: 998;
+  top: 196px;
+  left: 50%;
+  margin-left: -50px;
+}
+@media only screen and (max-width: 400px) {
+  /* line 1016, custom_assets/style/sass/style.scss */
+  .carrot {
+    display: none;
+  }
+}
+/* line 1030, custom_assets/style/sass/style.scss */
+.carrot.white {
+  border-top-color: #ffffff;
+}
+/* line 1033, custom_assets/style/sass/style.scss */
+.carrot.black {
+  border-top-color: #000000;
+}
+
+/* line 1038, custom_assets/style/sass/style.scss */
+.past-event.no-events {
+  padding-top: 93px;
+  padding-bottom: 20px !important;
+  position: relative !important;
+  height: 300px !important;
+  background-attachment: fixed !important;
+}
+/* line 1045, custom_assets/style/sass/style.scss */
+.past-event.no-events h4 {
+  color: #ff29cf;
+  line-height: 26px;
+}
+
+/* line 1053, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder i {
+  float: left !important;
+  background: none !important;
+  height: auto !important;
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+/* line 1062, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder .panel-default {
+  border: none !important;
+}
+/* line 1065, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder .panel-heading {
+  background: #000000;
+  padding: 20px;
+}
+/* line 1069, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder .panel-heading h4 a {
+  color: #e7e61f;
+}
+/* line 1071, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder .panel-heading h4 a:hover {
+  text-decoration: none;
+}
+/* line 1074, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder .panel-heading h4 a:focus {
+  text-decoration: none;
+}
+/* line 1077, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder .panel-heading h4 a:active {
+  text-decoration: none;
+}
+/* line 1083, custom_assets/style/sass/style.scss */
+#sponsorarea .gooder .panel-body {
+  background: #f2f1f7;
+}
+/* line 1089, custom_assets/style/sass/style.scss */
+#sponsorarea ul {
+  list-style: none !important;
+}
+/* line 1092, custom_assets/style/sass/style.scss */
+#sponsorarea .ui-state-default {
+  margin-right: 2px !important;
+}
+/* line 1094, custom_assets/style/sass/style.scss */
+#sponsorarea .ui-state-default a {
+  font-size: 23px !important;
+  color: #ff29cf !important;
+  background: #e7e61f !important;
+}
+/* line 1102, custom_assets/style/sass/style.scss */
+#sponsorarea .ui-state-default:hover a {
+  color: #e7e61f !important;
+  background: #ff29cf !important;
+}
+/* line 1109, custom_assets/style/sass/style.scss */
+#sponsorarea .ui-state-default.ui-tabs-active.ui-state-active {
+  border: none !important;
+}
+/* line 1112, custom_assets/style/sass/style.scss */
+#sponsorarea .ui-state-default.ui-tabs-active.ui-state-active a {
+  border: none !important;
+  color: #e7e61f !important;
+  background: #ff29cf !important;
+}
+/* line 1120, custom_assets/style/sass/style.scss */
+#sponsorarea .ui-state-default.ui-tabs-active.ui-state-active:hover a {
+  color: #ff29cf !important;
+  background: #e7e61f !important;
+}
+
+/* line 1131, custom_assets/style/sass/style.scss */
+input[type="text"], input[type="email"], .wpcf7-form textarea {
+  background: #f2f1f7;
+}

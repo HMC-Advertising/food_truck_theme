@@ -1,0 +1,63 @@
+//Break points
+@mixin breakpoint($point) {
+	@if $point == tablet {
+		@media (min-width: 768px) { @content; }
+	}
+	@else if $point == desktop {
+		@media (min-width: 992px) { @content; }
+	}
+	@else {
+		@media (min-width: $point) { @content; }
+	}
+}
+
+@mixin med($point) {
+	@if $point == tablet{
+		@media (min-width:401px) and (max-width: 767px) { @content; }
+	}
+	@else{
+		@media only screen and (max-width:400px){ @content}
+	}
+	
+}
+
+//
+@mixin transition($t){
+	-webkit-transition: all $t ease;
+	-moz-transition: all $t ease;
+	-ms-transition: all $t ease;
+	-o-transition: all $t ease;
+	transition: all $t ease;
+}
+
+
+@mixin trans(){
+   -webkit-transition:  0.5s ease;
+	  -moz-transition:  0.5s ease;
+	    -o-transition:  0.5s ease;
+	   -ms-transition:  0.5s ease;
+	       transition:  0.5s ease;
+}
+
+@mixin rotate(){
+	 -webkit-transform: rotate(360deg);
+	    -moz-transform: rotate(360deg);
+             transform: rotate(360deg);
+}
+@mixin border-radius($r){
+	border-radius: $r;
+	-moz-border-radius: $r;
+	-webkit-border-radius: $r;
+}
+
+/******************************
+= Clearfix
+******************************/
+
+%clearfix{
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

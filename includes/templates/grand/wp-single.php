@@ -1,0 +1,1 @@
+<?php df_get_template('grand', 'wp-single', get_post_type()); ?>

@@ -998,7 +998,7 @@ footer{
 	font-size:12px;
 }
 #location{
-	background:$b;
+	background:$b; 
 	h1, h3{
 		color:$yellow !important;
 	}
@@ -1013,6 +1013,15 @@ footer{
 	}
 }
 
+#menu{
+	p{
+		text-align: center;
+	    font-size: 35px;
+	    line-height: 40px;
+	    margin-bottom: 30px;
+	}
+}
+
 .carrot{
 	width: 0;
 	height: 0;
@@ -1021,7 +1030,7 @@ footer{
     border-top: 50px solid;
     position: absolute; 
     z-index: 998;
-    top: 196px;
+    top: 237px;
     left: 50%;
     margin-left: -50px;
     @include med(mobile){

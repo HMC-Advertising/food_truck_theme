@@ -1091,7 +1091,15 @@ footer ul li h2.widgettitle {
   padding-right: 0;
 }
 
-/* line 1016, custom_assets/style/sass/style.scss */
+/* line 1017, custom_assets/style/sass/style.scss */
+#menu p {
+  text-align: center;
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+/* line 1025, custom_assets/style/sass/style.scss */
 .carrot {
   width: 0;
   height: 0;
@@ -1100,26 +1108,26 @@ footer ul li h2.widgettitle {
   border-top: 50px solid;
   position: absolute;
   z-index: 998;
-  top: 196px;
+  top: 237px;
   left: 50%;
   margin-left: -50px;
 }
 @media only screen and (max-width: 400px) {
-  /* line 1016, custom_assets/style/sass/style.scss */
+  /* line 1025, custom_assets/style/sass/style.scss */
   .carrot {
     display: none;
   }
 }
-/* line 1030, custom_assets/style/sass/style.scss */
+/* line 1039, custom_assets/style/sass/style.scss */
 .carrot.white {
   border-top-color: #ffffff;
 }
-/* line 1033, custom_assets/style/sass/style.scss */
+/* line 1042, custom_assets/style/sass/style.scss */
 .carrot.black {
   border-top-color: #000000;
 }
 
-/* line 1038, custom_assets/style/sass/style.scss */
+/* line 1047, custom_assets/style/sass/style.scss */
 .past-event.no-events {
   padding-top: 93px;
   padding-bottom: 20px !important;
@@ -1127,13 +1135,13 @@ footer ul li h2.widgettitle {
   height: 300px !important;
   background-attachment: fixed !important;
 }
-/* line 1045, custom_assets/style/sass/style.scss */
+/* line 1054, custom_assets/style/sass/style.scss */
 .past-event.no-events h4 {
   color: #ff29cf;
   line-height: 26px;
 }
 
-/* line 1053, custom_assets/style/sass/style.scss */
+/* line 1062, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder i {
   float: left !important;
   background: none !important;
@@ -1143,71 +1151,71 @@ footer ul li h2.widgettitle {
   vertical-align: middle;
   display: table-cell;
 }
-/* line 1062, custom_assets/style/sass/style.scss */
+/* line 1071, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder .panel-default {
   border: none !important;
 }
-/* line 1065, custom_assets/style/sass/style.scss */
+/* line 1074, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder .panel-heading {
   background: #000000;
   padding: 20px;
 }
-/* line 1069, custom_assets/style/sass/style.scss */
+/* line 1078, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder .panel-heading h4 a {
   color: #e7e61f;
 }
-/* line 1071, custom_assets/style/sass/style.scss */
+/* line 1080, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder .panel-heading h4 a:hover {
   text-decoration: none;
 }
-/* line 1074, custom_assets/style/sass/style.scss */
+/* line 1083, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder .panel-heading h4 a:focus {
   text-decoration: none;
 }
-/* line 1077, custom_assets/style/sass/style.scss */
+/* line 1086, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder .panel-heading h4 a:active {
   text-decoration: none;
 }
-/* line 1083, custom_assets/style/sass/style.scss */
+/* line 1092, custom_assets/style/sass/style.scss */
 #sponsorarea .gooder .panel-body {
   background: #f2f1f7;
 }
-/* line 1089, custom_assets/style/sass/style.scss */
+/* line 1098, custom_assets/style/sass/style.scss */
 #sponsorarea ul {
   list-style: none !important;
 }
-/* line 1092, custom_assets/style/sass/style.scss */
+/* line 1101, custom_assets/style/sass/style.scss */
 #sponsorarea .ui-state-default {
   margin-right: 2px !important;
 }
-/* line 1094, custom_assets/style/sass/style.scss */
+/* line 1103, custom_assets/style/sass/style.scss */
 #sponsorarea .ui-state-default a {
   font-size: 23px !important;
   color: #ff29cf !important;
   background: #e7e61f !important;
 }
-/* line 1102, custom_assets/style/sass/style.scss */
+/* line 1111, custom_assets/style/sass/style.scss */
 #sponsorarea .ui-state-default:hover a {
   color: #e7e61f !important;
   background: #ff29cf !important;
 }
-/* line 1109, custom_assets/style/sass/style.scss */
+/* line 1118, custom_assets/style/sass/style.scss */
 #sponsorarea .ui-state-default.ui-tabs-active.ui-state-active {
   border: none !important;
 }
-/* line 1112, custom_assets/style/sass/style.scss */
+/* line 1121, custom_assets/style/sass/style.scss */
 #sponsorarea .ui-state-default.ui-tabs-active.ui-state-active a {
   border: none !important;
   color: #e7e61f !important;
   background: #ff29cf !important;
 }
-/* line 1120, custom_assets/style/sass/style.scss */
+/* line 1129, custom_assets/style/sass/style.scss */
 #sponsorarea .ui-state-default.ui-tabs-active.ui-state-active:hover a {
   color: #ff29cf !important;
   background: #e7e61f !important;
 }
 
-/* line 1131, custom_assets/style/sass/style.scss */
+/* line 1140, custom_assets/style/sass/style.scss */
 input[type="text"], input[type="email"], .wpcf7-form textarea {
   background: #f2f1f7;
 }

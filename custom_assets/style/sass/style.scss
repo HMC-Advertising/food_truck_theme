@@ -183,10 +183,10 @@ div.df-navibar{
  }
 
  .middlev{
- 	position:absolute;
- 	top:50%;
- 	margin-top:-50px;
- 	clear: both;
+	position:absolute;
+	top:50%;
+	margin-top:-50px;
+	clear: both;
  }
 
 .footwidget{
@@ -267,27 +267,27 @@ footer{
 		width:290px;
 	}
 	.operatinghour-widget{
-	 	ul {
-	 		margin-top:-10px;
-	 		li{
-	 			//padding-bottom:0;
-	 			margin-bottom: 10px;
-	 			border-bottom: none;
-	 			&:last-child{
-	 				 border-bottom:none;
-	 			}
-	 			p{
-	 				color:$yellow !important;
-	 			}
-	 			a{
-	 				color:$pink;
-	 				font-weight: 800;
-	 				font-size: 18px;
-	 				text-transform: uppercase !important;
-	 				@include trans();
-	 			}
-	 		}
-	 	}
+		ul {
+			margin-top:-10px;
+			li{
+				//padding-bottom:0;
+				margin-bottom: 10px;
+				border-bottom: none;
+				&:last-child{
+					 border-bottom:none;
+				}
+				p{
+					color:$yellow !important;
+				}
+				a{
+					color:$pink;
+					font-weight: 800;
+					font-size: 18px;
+					text-transform: uppercase !important;
+					@include trans();
+				}
+			}
+		}
 	}
 }
 
@@ -368,7 +368,7 @@ footer{
 	h3{
 		color:$yellow;
 		font-size: 24px !important;
-  		text-transform: capitalize;
+		text-transform: capitalize;
 	}
 	a{
 		@include trans();
@@ -432,28 +432,28 @@ footer{
 .cts_acc.wpb_content_element {
 	h2{
 		color: #b7b7b7;
-  		text-align: left;
-  		font-family: Roboto;
-  		font-weight: 500;
-  		font-style: normal;
-  		font-size: 15px;
+		text-align: left;
+		font-family: Roboto;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 15px;
 	}
 	.wpb_accordion_wrapper {
 		.ui-state-active .ui-icon{
 			background-image:none !important;
 
-  			&:after{
-  				color:$yellow !important;
-  				background-image:none !important;
-  			}
+			&:after{
+				color:$yellow !important;
+				background-image:none !important;
+			}
 		}
 		.ui-state-default .ui-icon{
 			background-image:none !important;
 
-  			&:after{
-  				color:$yellow !important;
-  				background-image:none !important;
-  			}
+			&:after{
+				color:$yellow !important;
+				background-image:none !important;
+			}
 		}
 		.wpb_accordion_header{
 			background-color: #c8eeed !important;
@@ -464,21 +464,21 @@ footer{
 				font-size: 20px !important;
 				margin-left: -25px !important;
 				display: inline-block !important;
-   				padding:0 ;
-  				padding-top: 4px;
+				padding:0 ;
+				padding-top: 4px;
 			}
 
 			.ui-icon{
 				background:$pink;
 				color:$yellow;
 				border-radius: 50%;
-  				width: 35px !important;
-  				height: 35px !important;
-  				padding-top: 7px;
-  				margin-top: 5px;
-  				margin-bottom: 0px;
-  				display: inline-block !important;
-  				background-image: none !important;
+				width: 35px !important;
+				height: 35px !important;
+				padding-top: 7px;
+				margin-top: 5px;
+				margin-bottom: 0px;
+				display: inline-block !important;
+				background-image: none !important;
 
 			}
 		}
@@ -508,10 +508,10 @@ footer{
 		font-size:24px;
 		text-align: right;
 		font-weight: 400 !important;
-  		margin-right: 18px;
-  		@include med(mobile) {
-  			font-size: 27px !important;
-  		}
+		margin-right: 18px;
+		@include med(mobile) {
+			font-size: 27px !important;
+		}
 	}
 	.tweet{
 		padding-top:5px;
@@ -548,9 +548,9 @@ footer{
 @include med(mobile) {
 	.mobile-true .df-fancy-header-parallax{
 		background-size: 510px !important;
-  		height: 330px !important;
-  		min-height: 100px !important;
-  		background-position: center center !important ;
+		height: 330px !important;
+		min-height: 100px !important;
+		background-position: center center !important ;
 	}
 
 	.page-id-103{
@@ -558,7 +558,7 @@ footer{
 			background:$b !important;
 		}
 		.df-fancy-header-parallax {
-		    background-position: center -150% !important;
+			background-position: center -150% !important;
 		}
 	}
 	.vc_custom_1452980315921{
@@ -597,9 +597,9 @@ footer{
 	}
 	#menu img{
 		max-width: 200%;
-	    height: auto;
-	    margin-left: -125px !important;
-	    margin-top: -46px !important;
+		height: auto;
+		margin-left: -125px !important;
+		margin-top: -46px !important;
 	}
 	h3{
 		font-size:16px;
@@ -614,7 +614,7 @@ footer{
 		height:200px !important;
 		background-attachment:scroll !important;
 		background-size: 400px !important;
-    	min-height: 1px !important;
+		min-height: 1px !important;
 	}
 	#twitterStream{
 		.tweet{
@@ -683,7 +683,7 @@ footer{
 	}
 	#truck-stop{
 		margin-top: -64px;
-  		margin-bottom: -70px;
+		margin-bottom: -70px;
 	}
 	.df_span-sm-2{
 		display: none !important;
@@ -699,9 +699,9 @@ footer{
 	}
 	#df-fancy-header{
 		background-size: 650px !important;
-  		height: 400px !important;
-  		min-height: 100px !important;
-  		background-position: center center !important;
+		height: 400px !important;
+		min-height: 100px !important;
+		background-position: center center !important;
 	}
 	.mobileHidden{
 	display:none;
@@ -720,9 +720,9 @@ footer{
 	}
 	#df-fancy-header{
 		background-size: 910px !important;
-  		height: 500px !important;
-  		min-height: 100px !important;
-  		background-position: center center !important;
+		height: 500px !important;
+		min-height: 100px !important;
+		background-position: center center !important;
 	}
 }
 
@@ -758,7 +758,7 @@ footer{
 	}
 	#truck-stop{
 		margin-top: -64px;
-  		margin-bottom: -70px;
+		margin-bottom: -70px;
 	}
 	.df_span-sm-2{
 		display: none !important;
@@ -816,10 +816,10 @@ footer{
 		}
 		@include med(mobile){
 
-		    float: none;
-		    margin-right: 10px;
-		    margin-bottom: -18px;
-		    text-align: center;
+			float: none;
+			margin-right: 10px;
+			margin-bottom: -18px;
+			text-align: center;
 		}
 	}
 
@@ -837,7 +837,9 @@ footer{
 		@include med(mobile){
 			position:relative;
 			text-align: center;
-    		display: block;
+			display: block;
+			margin-top: -22px;
+			margin-bottom: 11px;
 		}
 	}
 }
@@ -865,28 +867,28 @@ footer{
 .communityTruck{
 	h2{
 		color: #b7b7b7;
-  		text-align: left;
-  		font-family: Roboto;
-  		font-weight: 500;
-  		font-style: normal;
-  		font-size: 15px;
+		text-align: left;
+		font-family: Roboto;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 15px;
 	}
 	.wpb_accordion_wrapper {
 		.ui-state-active .ui-icon{
 			background-image:none !important;
 
-  			&:after{
-  				color:$yellow !important;
-  				background-image:none !important;
-  			}
+			&:after{
+				color:$yellow !important;
+				background-image:none !important;
+			}
 		}
 		.ui-state-default .ui-icon{
 			background-image:none !important;
 
-  			&:after{
-  				color:$yellow !important;
-  				background-image:none !important;
-  			}
+			&:after{
+				color:$yellow !important;
+				background-image:none !important;
+			}
 		}
 		.wpb_accordion_header{
 			background-color: #c8eeed !important;
@@ -898,21 +900,21 @@ footer{
 				font-size: 20px !important;
 				margin-left: -25px !important;
 				display: inline-block !important;
-   				padding:0 ;
-  				padding-top: 4px;
+				padding:0 ;
+				padding-top: 4px;
 			}
 
 			.ui-icon{
 				background:$pink;
 				color:$yellow;
 				border-radius: 50%;
-  				width: 35px !important;
-  				height: 35px !important;
-  				padding-top: 7px;
-  				margin-top: 5px;
-  				margin-bottom: 0px;
-  				display: inline-block !important;
-  				background-image: none !important;
+				width: 35px !important;
+				height: 35px !important;
+				padding-top: 7px;
+				margin-top: 5px;
+				margin-bottom: 0px;
+				display: inline-block !important;
+				background-image: none !important;
 
 			}
 		}
@@ -1018,8 +1020,8 @@ footer{
 #smGall, #smPhotos {
 	.df_span-sm-5, .df_span-sm-3, .df_span-sm-1, .df_span-sm-2, .df_span-sm-4, .df_span-sm-6 {
 		.vc_column-inner {
-		    padding-left:0 ;
-		    padding-right:0;
+			padding-left:0 ;
+			padding-right:0;
 		}
 	}
 }
@@ -1027,9 +1029,9 @@ footer{
 #menu{
 	p{
 		text-align: center;
-	    font-size: 35px;
-	    line-height: 40px;
-	    margin-bottom: 30px;
+		font-size: 35px;
+		line-height: 40px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -1037,16 +1039,16 @@ footer{
 	width: 0;
 	height: 0;
 	border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 50px solid;
-    position: absolute;
-    z-index: 998;
-    top: 237px;
-    left: 50%;
-    margin-left: -50px;
-    @include med(mobile){
-    	display: none;
-    }
+	border-right: 50px solid transparent;
+	border-top: 50px solid;
+	position: absolute;
+	z-index: 998;
+	top: 237px;
+	left: 50%;
+	margin-left: -50px;
+	@include med(mobile){
+		display: none;
+	}
 	&.white{
 		border-top-color:$w;
 	}
@@ -1057,15 +1059,15 @@ footer{
 
 .past-event.no-events{
 	padding-top: 93px;
-    padding-bottom: 20px !important;
-    position: relative !important;
-    height: 300px !important;
+	padding-bottom: 20px !important;
+	position: relative !important;
+	height: 300px !important;
    // background: url("http://dev.goodfoodtruckvt.org/wp/wp-content/uploads/2016/01/events-header.png");
-    background-attachment: fixed !important;
-    h4{
-    	color:$pink;
-    	line-height: 26px;
-    }
+	background-attachment: fixed !important;
+	h4{
+		color:$pink;
+		line-height: 26px;
+	}
 }
 
 #sponsorarea{
@@ -1075,9 +1077,9 @@ footer{
 			background:none !important;
 			height:auto !important;
 			width: 60px;
-		    text-align: center;
-		  	vertical-align: middle;
-		    display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			display: table-cell;
 		}
 		.panel-default{
 			border:none !important;

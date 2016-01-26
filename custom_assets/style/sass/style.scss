@@ -596,10 +596,11 @@ footer{
 		display:none !important;
 	}
 	#menu img{
-		max-width: 200%;
+		//max-width: 200%;
 		height: auto;
-		margin-left: -125px !important;
-		margin-top: -46px !important;
+		//margin-left: -125px !important;
+		//margin-top: -46px !important;
+
 	}
 	h3{
 		font-size:16px;
@@ -832,7 +833,7 @@ footer{
 		position: absolute;
 		margin:{
 			top:7px;
-			//left:34px;
+
 		}
 		@include med(mobile){
 			position:relative;

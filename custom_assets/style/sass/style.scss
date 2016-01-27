@@ -813,7 +813,7 @@ footer{
 		float: right;
 		margin:{
 			top: -4px;
-			right:10px;
+			right:4px;
 		}
 		@include med(mobile){
 
@@ -831,16 +831,23 @@ footer{
 		}
 		color:$yellow;
 		position: absolute;
-		margin:{
-			top:7px;
-
-		}
+		margin-top: -1px;
+		padding: 10px 20px;
+		background: $pink; 
+		border-radius: 40px;
+		margin-left: -5px;
+		@include trans();
+		
 		@include med(mobile){
 			position:relative;
 			text-align: center;
 			display: block;
 			margin-top: -22px;
 			margin-bottom: 11px;
+		}
+		&:hover{
+			background:$yellow;
+			color:$pink;
 		}
 	}
 }
@@ -1030,8 +1037,8 @@ footer{
 #menu{
 	p{
 		text-align: center;
-		font-size: 35px;
-		line-height: 40px;
+		font-size: 22px;
+		line-height: 30px;
 		margin-bottom: 30px;
 	}
 }
@@ -1075,12 +1082,24 @@ footer{
 	.gooder{
 		i{
 			float:left !important;
-			background:none !important;
+			
 			height:auto !important;
 			width: 60px;
 			text-align: center;
 			vertical-align: middle;
 			display: table-cell;
+			margin-right: 10px;
+		    padding-top: 21px;
+		    padding-bottom: 20px;
+		    margin-top: -19px;
+		    &.fa-angle-up{
+		    	background:$pink !important;
+		    	color: $yellow !important;
+		    }
+		    &.fa-angle-down{
+		    	background: $yellow !important;
+		    	color: $pink !important;
+		    }
 		}
 		.panel-default{
 			border:none !important;
@@ -1088,6 +1107,7 @@ footer{
 		.panel-heading{
 			background:$b;
 			padding:20px;
+			padding-left: 1px;
 			h4{
 				a{
 					color:$yellow;
@@ -1112,10 +1132,16 @@ footer{
 	ul{
 		list-style: none !important;
 	}
+
+	.tab_style_1 .wpb_tabs_nav .ui-state-default a {
+    	padding-bottom: 14px !important;
+    	padding-top: 13px !important;
+	}
+	
 	.ui-state-default{
 		margin-right: 2px !important;
 		a{
-			font-size: 23px !important;
+			font-size: 17px !important;
 			color:$pink !important;
 			background:$yellow !important;
 		}

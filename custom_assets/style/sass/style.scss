@@ -247,8 +247,8 @@ footer{
 .textwidget{
 	img{
 		margin:{
-			top:12px;
-			bottom:-15px;
+			top: 28px; 
+   			bottom: -28px;
 		}
 	}
 	.widget{
@@ -540,12 +540,99 @@ footer{
 #myMap{
 	margin-top:-20px !important;
 }
+ 
+@include med(tablet){//portrait
+	#background{
+		height:400px !important;
+		background-attachment:scroll !important;
+		background-size: 37% !important;
+		min-height: 1px !important;
 
+	}	
+	.df-menu{
+		color:$w;
+	}
+	#df-fancy-header{
+		background-size:107%;
+		    min-height: 500px !important;
 
+		.df-header-container{
+			height:500px !important;
+		}
+	}
+	#smGall{
+		.spacer{
+			display: none;
+		}
+	}
+	.past-event {
+		div{
+			width: 100% !important;
+		}
+	}
+}
 
+@include med(land){
+	#smGall{
+		.spacer{
+			display: none;
+		}
+	}
+	.past-event {
+		div{
+			width: 100% !important;
+		}
+	}
+	.main-navigation{
+		a{
+			font-size: 7px !important;
+		}
+	}
+	.donatenow{
+		a{
+			font-size: 20px !important;
+		}
+	}
+	.social{
+		.contact_text{
+			position:relative !important;
+			text-align: center;
+			display: block;	
+			margin-bottom: 10px;
+		}
+		.right{
+			text-align: center;
+			float:none !important;
+			margin-bottom: -35px;
+		}
+	} 
+}
+.googlefont{
+	font-size:26px;
+}
 
 //mobile section
 @include med(mobile) {
+	.wpcf7-submit{
+		margin-bottom:50px !important;
+	}
+	#sponsorarea .gooder i {
+	   
+	    padding-top: 40px !important;
+	    padding-bottom: 41px !important;
+	  }
+	#test p{
+		font-size: 17px !important;
+		padding-top: 32px;
+	}
+	.googlefont{
+		font-size: 18px !important;
+	}
+	.past-event {
+		div{
+			width: 100% !important;
+		}
+	}
 	.mobile-true .df-fancy-header-parallax{
 		background-size: 510px !important;
 		height: 330px !important;
@@ -616,6 +703,7 @@ footer{
 		background-attachment:scroll !important;
 		background-size: 400px !important;
 		min-height: 1px !important;
+
 	}
 	#twitterStream{
 		.tweet{
@@ -1057,6 +1145,9 @@ footer{
 	@include med(mobile){
 		display: none;
 	}
+	@include med(tablet){
+		top:210px;
+	}
 	&.white{
 		border-top-color:$w;
 	}
@@ -1069,12 +1160,27 @@ footer{
 	padding-top: 93px;
 	padding-bottom: 20px !important;
 	position: relative !important;
-	height: 300px !important;
+	height: 383px !important;
    // background: url("http://dev.goodfoodtruckvt.org/wp/wp-content/uploads/2016/01/events-header.png");
 	background-attachment: fixed !important;
 	h4{
-		color:$pink;
 		line-height: 26px;
+	}
+}
+
+#test{
+	p{
+		color:$w;
+		text-align: center;
+		font-size: 22px;
+	    font-family: "Raleway";
+	}
+	.author{
+		color:$yellow;
+		display: block;
+		text-align:center;
+		margin-top: -20px;
+		font-style: normal !important;
 	}
 }
 
@@ -1089,9 +1195,9 @@ footer{
 			vertical-align: middle;
 			display: table-cell;
 			margin-right: 10px;
-		    padding-top: 21px;
-		    padding-bottom: 20px;
-		    margin-top: -19px;
+	        padding-top: 21px;
+			padding-bottom: 22px;
+			margin-top: -20px;
 		    &.fa-angle-up{
 		    	background:$pink !important;
 		    	color: $yellow !important;
@@ -1107,7 +1213,7 @@ footer{
 		.panel-heading{
 			background:$b;
 			padding:20px;
-			padding-left: 1px;
+			padding-left: 0px;
 			h4{
 				a{
 					color:$yellow;
@@ -1136,6 +1242,10 @@ footer{
 	.tab_style_1 .wpb_tabs_nav .ui-state-default a {
     	padding-bottom: 14px !important;
     	padding-top: 13px !important;
+    	font-weight:800 !important;
+    	line-height: 16px;
+	    padding-left: 25px;
+	    padding-right: 25px;
 	}
 	
 	.ui-state-default{
@@ -1144,6 +1254,9 @@ footer{
 			font-size: 17px !important;
 			color:$pink !important;
 			background:$yellow !important;
+			small{
+				color:$pink !important;
+			}
 		}
 
 		&:hover{
@@ -1151,6 +1264,9 @@ footer{
 			a{
 				color:$yellow !important;
 				background:$pink !important;
+				small{
+					color:$yellow !important;
+				}
 			}
 
 		}
@@ -1162,6 +1278,9 @@ footer{
 				border:none !important;
 				color:$yellow !important;
 				background:$pink !important;
+				small{
+					color:$yellow !important;
+				}
 			}
 
 			&:hover{
@@ -1169,6 +1288,9 @@ footer{
 				a{
 					color:$pink !important;
 					background:$yellow !important;
+					small{
+						color:$pink !important;
+					}
 				}
 
 			}
@@ -1182,7 +1304,19 @@ input[type="text"], input[type="email"], .wpcf7-form textarea {
 }
 
 
-
+.newContact{
+	a{
+		background:$yellow !important;
+		color:$pink !important;
+		font-weight:800 !important;
+		font-size:16px !important;
+		text-transform:uppercase ;
+		@include trans();
+		&:hover{
+			background:$b !important;
+		}
+	}
+}
 
 
 
